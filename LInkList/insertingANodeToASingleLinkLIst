@@ -1,0 +1,31 @@
+# #created by kongnyuy livingston on 10/01/2023
+
+# insertion to linked list in memory
+# we can insert an element in a link list in 3 d/f ways
+
+# 1. At the beginning of the linked list.
+# 2. After a node i.e middle of a link list
+# 3. At the end of the Link list
+
+
+# 1. Inserting at the begining of linked list
+
+#     allocate a random memory for the head in a link list
+#     we break the connection and the head points to the newly created node then the newly created node points to the node of the node that was BrokenPipeError
+#     the time complexity is O(1)
+
+
+# 2. MIddle of link list 
+#     we traverse from head to the node were we want to add
+#     we allocate a random location for the new node 
+#     now break the link and put it to the newly newly node
+    
+
+# 3. Add at the end of the link list
+#     we traverse from head to the last element
+#     we allocate a ramdon meomery locatio fo rthe new node
+#     then we add the element
+#     the time complexity is O(n)
+
+
+#     N.B the best way is to add at the begining of the link list

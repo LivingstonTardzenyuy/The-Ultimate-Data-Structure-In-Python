@@ -1,0 +1,32 @@
+linked list
+def: a link list is a data structure made up of independent nodes that may contain any type of data and each node has a reference to the next node i the link
+
+for example: a train is a type of link list.
+            A train is composed of d/f cars and each car is link to the next car and the total forms a link list
+
+            The train has head and tail as a link list.
+
+            we can remove each car and the train still work hence each compartment in the train is independent as same as link list.
+
+            soo a train satisfy all properties of link list hence a train is a link list.
+
+            
+            the first component of link list is the head
+
+            the last component is the Tail
+
+            A node contains Value of node, reference of next node.
+
+            we store the Tail b/c we can insert an element at the end of a link list.
+
+
+
+
+            D/F between Arrays and LinkList
+
+                Arrays do almost everything that link list do such as add, delete, update etc 
+
+                1.  Elements of linked list are independent objects as opposed to arrays b/c when we delete an element in a array the index is not deleleted
+                2.  Link is has variabel size as opposed to arrays since we must define the size of the array.
+                3.  Insertion and removals in linked list are very efficient
+                4.  Link list are not random arrays as opposed to  Arrays are Random access 

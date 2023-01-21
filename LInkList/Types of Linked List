@@ -1,0 +1,34 @@
+ Types of Linked Lists
+
+ we have four types of linked Lists
+
+ 1. Single Linked Lists
+ 2. Cirucular Single linked Lists
+ 3. Double linked Lists
+ 4. Cirucular Double linke Lists.
+
+
+
+ 1. Single linked Lists
+    each node stores the value and the reference to the next node 
+
+2. Cirucular Single linked Lists
+    it is a Single linked Lists where the last node stores the address of the first node  hence we have no null.
+    here we have an object of reaching the last node and going back to the first node
+
+    it is used in chess game
+
+    e.g when playing a die game between more than two players.
+        if we have 3 players then player1 plays, player2 plays, player3 plays then player1 plays again 
+
+
+3. Double linked Lists
+    this is a linked list that each node point to the address of each node and the previous node. 
+    hence each node has 2 references.
+
+    e.g a music player were we can play a music where we can next and prev.
+
+4. Cirucular Double linke list.
+    it is a Cirucular linked list were the address of the last node points to the address of the first node.
+    
+    e.g whe  n we press ctrl+tab and we navigate accross each program continously
