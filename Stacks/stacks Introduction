@@ -1,0 +1,19 @@
+A stack is a data structure that stores items uisng Last In First Out
+e.g a pile of book
+    a pile of dinner plate
+the last element comes out First
+
+why we do need a stack
+    when we need a functionality in our application that utilizes the last data first
+
+    e.g the back button in the computer follow stack data structure.
+
+
+OPeration on Stack
+    -create stack: use to create a stack
+    -push: inserting into a stack
+    -pop: returning the top element from the stack
+    -peek:display the top element
+    -isEmpty:check if our stack is empty
+    -isFull: check if our stack is full
+    -deleteStack: delete element from stack and does not return it.
